@@ -1,0 +1,23 @@
+
+class Solution:
+    def maxFrequencyElements(self, nums: List[int]) -> int:
+        hashmap = {}
+
+        max_freq = 1
+
+        for num in nums:
+            if num in hashmap:
+                hashmap[num]+=1
+                if max_freq < hashmap[num]:
+                    max_freq = hashmap[num]
+            else:
+                hashmap[num] = 1
+            
+        total = 0
+        for value in hashmap.values():
+            if value == max_freq:
+                total += value
+        
+        return total
+
+        
