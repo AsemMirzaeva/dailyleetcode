@@ -1,4 +1,4 @@
-# LeetCode in Go 🐹
+# LeetCode Tasks
 
 I am challenging myself to **solve LeetCode problems daily** and **push my solutions to GitHub** 🚀.  
 All problems are solved in **Go (Golang)** to strengthen my problem-solving skills, improve algorithmic thinking,  
